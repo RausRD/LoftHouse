@@ -487,3 +487,20 @@ a:hover {
   height: 358px;
   background-color: #626262;
 }
+
+.feadback {
+  padding-bottom: 180px;
+}
+
+.feadback__title {
+  margin-bottom: 38px;
+}
+
+.feadback__form {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
