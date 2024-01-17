@@ -158,6 +158,11 @@ a:hover {
   font-weight: 700;
 }
 
+.link-bold {
+  color: #D4C17F;
+  font-weight: 700;
+}
+
 .none {
   display: none !important;
 }
@@ -219,6 +224,7 @@ a:hover {
 
 .nav {
   font-size: 14px;
+  letter-spacing: 0.05em;
 }
 
 .nav__list {
@@ -500,6 +506,42 @@ a:hover {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer {
+  background-color: #2D343C;
+  padding-top: 72px;
+  padding-bottom: 51px;
+  font-size: 14px;
+  letter-spacing: 0.05rem;
+}
+
+.footer__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.footer__logo {
+  margin-top: -12px;
+}
+
+.footer__nav-list {
+  display: grid;
+  gap: 15px;
+}
+
+.footer__socials {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 22px;
+     -moz-column-gap: 22px;
+          column-gap: 22px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
