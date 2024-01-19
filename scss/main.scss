@@ -1,11 +1,13 @@
 //Base
 @import './base/reset';
 @import './base/vars';
+@import './base/mixins';
 @import './base/base'; //основні стилі для сторінки
 
 // Blocks
 @import './blocks/header';
 @import './blocks/nav';
+@import './blocks/nav-icon';
 @import './blocks/info';
 @import './blocks/bemefits';
 @import './blocks/appartments';
