@@ -19,7 +19,12 @@
 	text-align: center;
 	line-height: 1.23;
 	font-size: 13px;
-	color: $muted;
+	color: $muted; 
+	&--bottom {
+		@include mediaTablet {
+			grid-row: 4 / 5;
+		}
+	}
 }
 .form__btn {
 	height: 50px;
