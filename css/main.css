@@ -822,9 +822,19 @@ a:hover {
 .feadback {
   padding-bottom: 180px;
 }
+@media screen and (max-width: 959px) {
+  .feadback {
+    padding-bottom: 90px;
+  }
+}
 
 .feadback__title {
   margin-bottom: 38px;
+}
+@media screen and (max-width: 959px) {
+  .feadback__title {
+    margin-bottom: 19px;
+  }
 }
 
 .feadback__form {
@@ -834,6 +844,11 @@ a:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+@media screen and (max-width: 959px) {
+  .feadback__form {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer {
