@@ -715,6 +715,7 @@ a:hover {
 }
 
 .video {
+  overflow: hidden;
   position: relative;
   text-align: center;
 }
@@ -762,6 +763,12 @@ a:hover {
           transform: translate(-50%, -50%);
   -webkit-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
+}
+@media screen and (max-width: 959px) {
+  .vidoe__icon {
+    width: 80px;
+    height: 80px;
+  }
 }
 
 .video__link:hover .vidoe__icon {
