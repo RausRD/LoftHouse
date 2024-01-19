@@ -1,12 +1,24 @@
 .video {
+	position: relative;
 	text-align: center;
+	&::after {
+		content: 'IV';
+		position: absolute;
+		top: 0;
+		left: calc(50% + 555px);
+		transform: translate(-50%, 0%);
+		line-height: 1.15;
+		opacity: 0.02;
+		font-size: 400px;
+		font-family: $font-accent;
+	}
 }
 .video__link {
 	position: relative;
 	display: inline-block;
 	// text-align: center;
 	&::before {
-		content: "";
+		content: '';
 		position: absolute;
 		left: 0;
 		top: 0;
